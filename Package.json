@@ -1,0 +1,14 @@
+{
+  "name": "voting-system",
+  "version": "1.0.0",
+  "description": "A live voting system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  }
+}

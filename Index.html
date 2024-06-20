@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Voting System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Live Voting System</h1>
+    <div id="registration">
+        <h2>Register</h2>
+        <form id="registrationForm">
+            <input type="text" id="name" placeholder="Name" required><br>
+            <input type="text" id="idNumber" placeholder="Identity Number" required><br>
+            <input type="text" id="address" placeholder="Residential Address" required><br>
+            <input type="file" id="photo" accept="image/*" required><br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <div id="voting" style="display:none;">
+        <h2>Vote</h2>
+        <form id="votingForm">
+            <label>
+                <input type="radio" name="party" value="Party A"> Party A
+            </label><br>
+            <label>
+                <input type="radio" name="party" value="Party B"> Party B
+            </label><br>
+            <label>
+                <input type="radio" name="party" value="Party C"> Party C
+            </label><br>
+            <label>
+                <input type="radio" name="party" value="Party D"> Party D
+            </label><br>
+            <label>
+                <input type="radio" name="party" value="Party E"> Party E
+            </label><br>
+            <label>
+                <input type="radio" name="party" value="Party F"> Party F
+            </label><br>
+            <button type="submit">Vote</button>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
